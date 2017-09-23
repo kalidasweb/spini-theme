@@ -193,12 +193,23 @@ header hr{
 /*offer container style*/
 .offers-grid{
     position: relative;
-    bottom: 25px;
+    bottom: 45px;
 }
 .offer-container{
     box-shadow: 0 0 10px #b8bdbf;
     background: #fff;
     border-radius: 5px;
+    margin-top: 20px;
+}
+.offer-container:hover{
+    /*position: relative;
+    bottom: 40px;*/
+    box-shadow: 0 0 100px #888;
+    transition: 0.5s ease;
+    cursor: pointer;
+    -ms-transform: translate(0px,-50px); /* IE 9 */
+    -webkit-transform: translate(0px,-50px); /* Safari */
+    transform: translate(0px,-50px); /* Standard syntax */
 }
 .offer-container img{
     width: 100%;
@@ -280,10 +291,7 @@ header hr{
 .offer-spini-treashure{
 
 }
-.offer-spini-treashure div{
-    border-top: 2px solid #f7f7f7;
-}
-.offer-spini-treashure div a{
+.offer-spini-treashure a{
     color: #e83634;
     padding: 15px;
     border-top: 2px solid #f7f7f7;
@@ -292,10 +300,10 @@ header hr{
     font-size: 13px;
     background: url(../images/05Cards/Icn-SpiniTreasure@2x.png)no-repeat;
     background-size: 32px;
-    background-position: 65% 45%;
+    background-position: 60% 45%;
     text-align: right;
 }
-.offer-spini-treashure div a:hover{
+.offer-spini-treashure a:hover{
     background-color:  #f7f5e8;
 
 }
